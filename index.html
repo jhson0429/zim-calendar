@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚢 ZIM 선박 스케줄 캘린더</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+        .info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .info h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .calendar-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+        }
+        .calendar-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .calendar-card h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .calendar-card p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚢 ZIM 선박 스케줄 캘린더</h1>
+        <p class="subtitle">2025년 전체 스케줄</p>
+        
+        <div class="info">
+            <h3>📊 데이터 요약</h3>
+            <p><strong>총 스케줄:</strong> 54개 | <strong>서비스 라인:</strong> 14개</p>
+        </div>
+        
+        <div class="calendar-grid">
+            <a href="calendar_2025_01.html" class="calendar-card">
+                <h2>1월</h2>
+                <p>January 2025</p>
+            </a>
+            <a href="calendar_2025_02.html" class="calendar-card">
+                <h2>2월</h2>
+                <p>February 2025</p>
+            </a>
+            <a href="calendar_2025_03.html" class="calendar-card">
+                <h2>3월</h2>
+                <p>March 2025</p>
+            </a>
+            <a href="calendar_2025_04.html" class="calendar-card">
+                <h2>4월</h2>
+                <p>April 2025</p>
+            </a>
+            <a href="calendar_2025_05.html" class="calendar-card">
+                <h2>5월</h2>
+                <p>May 2025</p>
+            </a>
+            <a href="calendar_2025_06.html" class="calendar-card">
+                <h2>6월</h2>
+                <p>June 2025</p>
+            </a>
+            <a href="calendar_2025_07.html" class="calendar-card">
+                <h2>7월</h2>
+                <p>July 2025</p>
+            </a>
+            <a href="calendar_2025_08.html" class="calendar-card">
+                <h2>8월</h2>
+                <p>August 2025</p>
+            </a>
+            <a href="calendar_2025_09.html" class="calendar-card">
+                <h2>9월</h2>
+                <p>September 2025</p>
+            </a>
+            <a href="calendar_2025_10.html" class="calendar-card">
+                <h2>10월</h2>
+                <p>October 2025</p>
+            </a>
+            <a href="calendar_2025_11.html" class="calendar-card">
+                <h2>11월</h2>
+                <p>November 2025</p>
+            </a>
+            <a href="calendar_2025_12.html" class="calendar-card">
+                <h2>12월</h2>
+                <p>December 2025</p>
+            </a>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 ZIM 선박 스케줄 캘린더 | 마지막 업데이트: 2025-12-19</p>
+        </div>
+    </div>
+</body>
+</html>
